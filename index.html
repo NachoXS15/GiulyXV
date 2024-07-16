@@ -1,53 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GiulyXV</title>
     <meta name="author" content="Ignacio Joaquín Pantoja">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/drd6own.css">
 </head>
+
 <body>
     <header>
-        <div>
+        <div class="overlay">
             <span>Estás invitadx a mis XV</span>
             <h2>Giuly</h2>
             <p>21-09-24</p>
+            <a href="#main">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" class="bi bi-caret-down"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M3.204 5h9.592L8 10.481zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659" />
+                </svg>
+            </a>
         </div>
     </header>
     <main>
+        <a name="main"></a>
         <section id="address">
-            <div class="room"></div>
-            <div>
-                
-            </div>
-        </section>
-
-        <section id="countdown">
-            <h2>¿Cuánto falta?</h2>
-            <div class="timer">
-                <div class="n">
-                    <span id="months"></span>
-                    <p>Meses</p>
-                </div>
-                <span style="font-size: 4em; margin-bottom: 20px;">:</span>
-                <div class="n">
-                    <span id="days"></span>
-                    <p>Dias</p>
-                </div>
-                <span style="font-size: 4em; margin-bottom: 20px;">:</span>
-                <div class="n">
-                    <span id="hours"></span>
-                    <p>Horas</p>
-                </div>
-                <span style="font-size: 4em; margin-bottom: 20px;">:</span>
-                <div class="n">
-                    <span id="minutes"></span>
-                    <p>Minutos</p>
-                </div>
+            <div class="overlay">
+                <section id="countdown">
+                    <h2>¿Cuánto falta?</h2>
+                    <div class="timer">
+                        <div class="n">
+                            <span id="months"></span>
+                            <p>Meses</p>
+                        </div>
+                        <span style="font-size: 4em; margin-bottom: 20px;">:</span>
+                        <div class="n">
+                            <span id="days"></span>
+                            <p>Dias</p>
+                        </div>
+                        <span style="font-size: 4em; margin-bottom: 20px;">:</span>
+                        <div class="n">
+                            <span id="hours"></span>
+                            <p>Horas</p>
+                        </div>
+                        <span style="font-size: 4em; margin-bottom: 20px;">:</span>
+                        <div class="n">
+                            <span id="minutes"></span>
+                            <p>Minutos</p>
+                        </div>
+                    </div>
+                </section>
             </div>
         </section>
     </main>
     <script src="script.js"></script>
 </body>
+
 </html>
