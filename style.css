@@ -7,5 +7,85 @@
 body{
     width: 100%;
     min-height: 100dvh;
-    
+}
+
+/* banner */
+
+header{
+    width: 100%;
+    min-height: 100dvh;
+    background-image: url(img/cande.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 100;
+}
+
+header div{
+    width: 100%;
+    height: 100dvh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header div span{
+    font-size: 1em;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 10px 10px 10px red;
+}
+
+header div h2{
+    font-size: 8em;
+    letter-spacing: 5px;
+}
+
+header div p{
+    font-size: 2em;
+    letter-spacing: 5px;
+}
+
+/* main */
+/* info-importante */
+
+#address{
+    width: 80%;
+}
+
+#countdown{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.timer{
+    display: flex;
+    gap: 10px;
+}
+
+#countdown .n span{
+    font-size: 4em;
+}
+
+
+@media screen and (min-width: 768px) {
+    header div span{
+        font-size: 1em;
+    }
+    header div h2{
+        font-size: 10em;
+        letter-spacing: 5px;
+    }
 }
