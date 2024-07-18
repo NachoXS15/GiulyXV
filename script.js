@@ -42,3 +42,8 @@ window.onload = function() {
     updateCountdown();
     setInterval(updateCountdown, 1000);
 };
+
+
+function copyAlias(){
+    navigator.clipboard.writeText("giulyqm.mp")
+}

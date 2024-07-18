@@ -284,6 +284,9 @@ header div a{
 #mp-box p{
     font-size: 2em;
 }
+#mp-box p span{
+    cursor: pointer;
+}
 
 /* footer */
 
