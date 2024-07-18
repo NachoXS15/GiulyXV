@@ -180,6 +180,37 @@ header div a{
     font-size: 20px;
 }
 
+footer{
+    width: 100%;
+    height: 100dvh;
+    background-image: url(img/gate.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .overlay{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+}
+
+footer .overlay h1{
+    font-size: 8em;
+}
+footer .overlay h3{
+    font-size: 3em;
+}
+
+
 @media screen and (min-width: 768px) {
     header div span{
         font-size: 1em;
