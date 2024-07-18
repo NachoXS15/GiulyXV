@@ -214,6 +214,26 @@ header div a{
     height: 500px;
     border: 1px solid white;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+
+#mp-box h1{
+    font-size: 7em;
+    font-family: "hummingbird";
+    margin: 0;
+
+}
+#mp-box h2{
+    font-size: 2.3em;
+    font-weight: 600;
+}
+#mp-box p{
+    font-size: 2em;
 }
 
 /* footer */
