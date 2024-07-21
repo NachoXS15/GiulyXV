@@ -182,7 +182,7 @@ header div a{
 .btn{
     display: flex;
     justify-content: center;
-    gap: 5px;
+    gap: 7px;
     text-decoration: none;
     color: white;
     border: 1px solid white;
