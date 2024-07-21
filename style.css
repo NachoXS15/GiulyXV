@@ -156,7 +156,7 @@ header div a{
     text-align: center;
     gap: 50px;
     position: relative;
-    top: -20px;
+    top: -50px;
 }
 
 #info-text{
@@ -164,7 +164,7 @@ header div a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
 }
 
 #info-text h3{
@@ -179,7 +179,7 @@ header div a{
     font-weight: 400;
 }
 
-#info-text a{
+.btn{
     display: flex;
     justify-content: center;
     gap: 5px;
@@ -203,6 +203,25 @@ header div a{
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: white;
+}
+
+#reminder-box{
+    width: 80%;
+    height: 500px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+
+#reminder-box h1{
+    font-size: 7em;
+    font-family: "hummingbird";
+    margin: 0;
 }
 
 #reminder-section .overlay{
@@ -261,7 +280,7 @@ header div a{
 
 #mp-box{
     width: 80%;
-    height: 500px;
+    height: 550px;
     border: 1px solid white;
     border-radius: 10px;
     display: flex;
@@ -273,17 +292,28 @@ header div a{
 }
 
 #mp-box h1{
+    position: relative;
     font-size: 7em;
     font-family: "hummingbird";
     margin: 0;
+    top: -60px;
+    margin-bottom: 10px;
+}
 
+#mp-box hr{
+    color: white;
+    border: 1px solid white;
+    width: 50%;
+    position: relative;
+    top: 30px;
+    margin-bottom: 20px;
 }
 #mp-box h2{
-    font-size: 2.3em;
+    font-size: 2em;
     font-weight: 600;
 }
 #mp-box p{
-    font-size: 2em;
+    font-size: 1.5em;
 }
 #mp-box p span{
     cursor: pointer;

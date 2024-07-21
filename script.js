@@ -45,5 +45,5 @@ window.onload = function() {
 
 
 function copyAlias(){
-    navigator.clipboard.writeText("giulyqm.mp")
+    navigator.clipboard.writeText("MIS15.GQM")
 }
