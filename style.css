@@ -9,7 +9,7 @@
 
 body{
     width: 100%;
-    min-height: 100dvh;
+    height: 100dvh;
     overflow-y: hidden;
     user-select: none;
 }
@@ -123,7 +123,7 @@ header div a{
 }
 
 #countdown .n span{
-    font-size: 4em;
+    font-size: 3.5em;
 
 }
 
@@ -354,6 +354,8 @@ footer .overlay h1{
 }
 footer .overlay h3{
     font-size: 3em;
+    align-self: flex-end;
+    margin-right: 20px;
 }
 footer .overlay p{
     font-size: 1.4em;
